@@ -1,0 +1,153 @@
+body {
+  background-color: #010317;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+}
+
+html {
+  overflow: -moz-scrollbars-none;
+}
+
+.xyz {
+  background: #d33a1a;
+}
+
+.myclass {
+  width: 600px;
+  height: 600px;
+}
+
+.bkc {
+  width: 100px;
+  height: 50px;
+}
+
+/* .sks {
+  overflow-y: hidden;
+} */
+
+/* .mkc {
+  width: max-content;
+  height: 50px;
+  white-space: nowrap;
+  background: black;
+} */
+
+table th a {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+table th a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  /* Add the ability to scroll */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.caption {
+  font-family: Aldrich;
+  font-size: 35px;
+  padding-left: 20px;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 25px;
+  font-size: 17px;
+  margin-right: 55px;
+  float: right;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 15px;
+  background: #010317;
+  font-size: 20px;
+  border: 0.1px solid white;
+  cursor: pointer;
+}
+
+a.footerlink:link {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  margin-right: 40px;
+}
+
+a.footerlink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+th {
+  border: 0.1px solid white;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.fa {
+  color: white;
+}
+
+.image img {
+  height: 150px;
+  width: 150px;
+}
+
+.table:hover {
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width:825px) and (min-width:411px) {
+  #search {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width:705px) {
+  #search {
+    margin: auto;
+    float: none;
+  }
+  .topnav {
+    text-align: center;
+  }
+}
